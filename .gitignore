@@ -1,0 +1,74 @@
+# =====================================================================
+# jobpath — public template
+# Personal data (your CV, profile, tracker, reports, scan history) stays
+# local. The repo ships with example/template files; you fill in your own.
+# =====================================================================
+
+# User data (NEVER commit your own)
+cv.md
+config/profile.yml
+modes/_profile.md
+portals.yml
+data/applications.md
+data/pipeline.md
+data/scan-history.tsv
+data/follow-ups.md
+reports/*.md
+!reports/.gitkeep
+jobs/
+interview-prep/
+
+# Generated CV / cover letter outputs
+*.pdf
+*.docx
+!templates/**/*.pdf
+!templates/**/*.docx
+
+# Batch logs and state (ephemeral)
+batch/logs/*
+!batch/logs/.gitkeep
+batch/batch-state.tsv
+batch/batch-input.tsv
+batch/batch-runner.pid
+batch/build-cv-*.mjs
+batch/tracker-additions/**/*.tsv
+!batch/tracker-additions/.gitkeep
+
+# JDs (local scratch)
+jds/*
+!jds/.gitkeep
+
+# Playwright MCP runtime cache
+.playwright-mcp/
+*-form-*.png
+
+# Update bookkeeping
+.update-dismissed
+.update-lock
+
+# Secrets (NEVER commit)
+.env
+.envrc.local
+
+# Generated / dependencies
+.resolved-prompt-*
+node_modules/
+bun.lock
+package-lock.json
+
+# Build artifacts
+dashboard/career-dashboard
+dashboard/career-dashboard.exe
+
+# OS
+.DS_Store
+*.mov
+*.mp4
+
+# Claude Code local
+.claude/settings.local.json
+.claude/memory/
+
+# Archives / scratch
+archive/
+tmp/
