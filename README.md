@@ -6,6 +6,8 @@ jobpath runs from inside a coding agent (Claude Code, OpenCode, Gemini CLI). You
 
 It is designed for AI / data / engineering job hunts where tailoring quality matters more than application volume.
 
+Built and tested with Claude Code, OpenCode, and Gemini CLI as the agent runtimes. Bring your own API key.
+
 ## What it does
 
 1. **Scans portals.** Hits Greenhouse / Ashby / Lever / Workday APIs directly. Zero LLM cost on the discovery step. New postings land in `data/pipeline.md`.
