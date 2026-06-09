@@ -358,7 +358,6 @@ async function main() {
   }
 
   console.log(`\n→ Run /jobpath pipeline to evaluate new offers.`);
-  console.log('→ Share results and get help: https://discord.gg/8pRpHETxa4');
 }
 
 main().catch(err => {

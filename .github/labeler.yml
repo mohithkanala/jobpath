@@ -22,12 +22,10 @@
   - changed-files:
       - any-glob-to-any-file:
           - docs/**
-          - "README*.md"
-          - CONTRIBUTING.md
-          - GOVERNANCE.md
-          - CODE_OF_CONDUCT.md
-          - SECURITY.md
-          - SUPPORT.md
+          - README.md
+          - QUICKSTART.md
+          - METHODOLOGY.md
+          - ATTRIBUTION.md
 
 "🌐 i18n":
   - changed-files:
